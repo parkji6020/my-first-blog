@@ -1,9 +1,4 @@
-<html>
-    <head>
-        <title>Django Girls blog</title>
-    </head>
-    <body>
-	<div>
+<div>
     <h1><a href="/">Django Girls Blog</a></h1>
 </div>
 
@@ -14,14 +9,4 @@
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
-
-    </body>
-</html>
-
-[<Post: My second post>, <Post: My first post>]
-
-{% for post in posts %}
-    {{ post }}
-{% endfor %}
-
 
