@@ -6,4 +6,5 @@ db.sqlite3
 /static
 .DS_Store
 
+git clone https://github.com/parkji6020/my-first-blog.git
 
